@@ -420,7 +420,6 @@ $(call soong_config_set,lyric,soc,zumapro)
 
 # WiFi
 PRODUCT_PACKAGES += \
-	android.hardware.wifi-service \
 	wificond \
 	libwpa_client
 
