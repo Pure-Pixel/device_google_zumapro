@@ -21,6 +21,10 @@
     <!-- If face auth sends the user directly to home/last open app, or stays on keyguard by default-->
     <bool name="config_faceAuthDismissesKeyguard">false</bool>
 
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+    
     <!-- Our amoled doesn't animate well. -->
     <bool name="config_animateScreenLights">false</bool>
 
