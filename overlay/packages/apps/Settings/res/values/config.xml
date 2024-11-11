@@ -42,5 +42,8 @@
         <item>connectivity_thermal_power_manager/criteria_4_lte_pref_mode=3</item>
         <item>connectivity_thermal_power_manager/wifi_disconnected_time_seconds=180</item>
         <item>connectivity_thermal_power_manager/wifi_internet_driven_endc_product_carrier_id_set=shiba,husky,akita,komodo,tokay,caiman,comet@1,1989,2023,2576,2067,2071,2073,2577,2522,2075,2578,2083,2433,1949</item>
-    </string-array>    
+    </string-array>
+    
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>    
 </resources>
