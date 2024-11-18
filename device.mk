@@ -509,7 +509,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.camera.multicam.enable_p23_multicam=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.sf.native_mode=2
+	persist.sys.sf.color_saturation=1.0
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
