@@ -857,7 +857,6 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,google_displaycolor,displaycolor_platform,zuma)
 PRODUCT_PACKAGES += \
-	android.hardware.composer.hwc3-service.pixel \
 	libdisplaycolor \
 	libdisplaypanel
 
