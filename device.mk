@@ -528,10 +528,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.sf.native_mode=2
 
-# set the dss enable status setup
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.vendor.ddk.set.afbc=1
-
 PRODUCT_CHARACTERISTICS := nosdcard
 
 PRODUCT_PACKAGES += hostapd
