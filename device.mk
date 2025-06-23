@@ -525,10 +525,6 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.camera.multicam.enable_p23_multicam=true
 
-# Disable dimming by default
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.0.brightness.dimming.usage?=2
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += vendor.display.1.brightness.dimming.usage?=2
-
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.sf.native_mode=2
 
