@@ -236,6 +236,8 @@ DEVICE_MANIFEST_FILE += \
 	device/google/zumapro/manifest_media.xml
 endif
 
+PRODUCT_PACKAGES += GosOverlay GosSettingsOverlay
+
 # RKP VINTF
 -include vendor/google_nos/host/android/hals/keymaster/aidl/strongbox/RemotelyProvisionedComponent-citadel.mk
 
