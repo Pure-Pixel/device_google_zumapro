@@ -236,8 +236,6 @@ DEVICE_MANIFEST_FILE += \
 	device/google/zumapro/manifest_media.xml
 endif
 
-DEVICE_PACKAGE_OVERLAYS += device/google/zumapro/overlay
-
 # RKP VINTF
 -include vendor/google_nos/host/android/hals/keymaster/aidl/strongbox/RemotelyProvisionedComponent-citadel.mk
 
@@ -423,10 +421,6 @@ PRODUCT_PACKAGES += \
 	android.hardware.wifi-service \
 	wificond \
 	libwpa_client
-
-# Connectivity
-PRODUCT_PACKAGES += \
-        ConnectivityOverlay
 
 PRODUCT_PACKAGES_DEBUG += \
 	f2fs_io \
