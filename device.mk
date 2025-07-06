@@ -364,18 +364,6 @@ endif
 # Add sensor HAL AIDL product packages
 PRODUCT_PACKAGES += android.hardware.sensors-service.multihal
 
-# USB HAL
-PRODUCT_PACKAGES += \
-	android.hardware.usb-service
-PRODUCT_PACKAGES += \
-	android.hardware.usb.gadget-service
-
-ifneq (,$(filter ripcurrentpro, $(TARGET_PRODUCT)))
-PRODUCT_PACKAGES += usb_service_init_rc_i2c11
-else
-PRODUCT_PACKAGES += usb_service_init_rc_i2c6
-endif
-
 # MIDI feature
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
