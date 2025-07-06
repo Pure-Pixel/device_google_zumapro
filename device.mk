@@ -238,6 +238,8 @@ endif
 
 PRODUCT_PACKAGES += GosOverlay GosSettingsOverlay
 
+PRODUCT_PACKAGES += init.zumapro.grapheneos.rc
+
 # RKP VINTF
 -include vendor/google_nos/host/android/hals/keymaster/aidl/strongbox/RemotelyProvisionedComponent-citadel.mk
 

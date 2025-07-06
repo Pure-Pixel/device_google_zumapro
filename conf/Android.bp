@@ -30,3 +30,9 @@ filegroup {
     ],
 }
 
+prebuilt_etc {
+    name: "init.zumapro.grapheneos.rc",
+    src: "init.zumapro.grapheneos.rc",
+    sub_dir: "init",
+    vendor: true,
+}
